@@ -1,0 +1,39 @@
+.admin_div {
+  width: 80%;
+  align-self: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #febd69;
+  font-weight: bold;
+}
+
+.table td,
+.table th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.table tr {
+  background-color: rgb(255, 255, 255);
+}
+
+.table tr:hover {
+  background-color: #ddd;
+}
+
+@media screen and (max-width: 992px) {
+  .admin_div {
+    width: 100%;
+  }
+}
